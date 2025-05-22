@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 class Program
 {
-    static EntryList journal = new EntryList();
+    static Journal journal = new Journal();
 
     static void Main(string[] args)
     {
