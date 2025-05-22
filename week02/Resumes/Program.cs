@@ -24,7 +24,7 @@ class Program
         resume._name = "John Doe";
         resume.jobs.Add(job1);
         resume.jobs.Add(job2);
-        resume.display();
+        resume.Display();
 
     }
 }
