@@ -1,3 +1,6 @@
+// I have exceeded the core requirements by adding the following features:
+// 1. Multiple Journal Management: I created a JournalManager class that scans the working directory for existing .txt files
+// 2. Persistent Custom Prompts: I added a Settings submenu that allows the user to add new writing prompts. 
 using System;
 
 class Program
