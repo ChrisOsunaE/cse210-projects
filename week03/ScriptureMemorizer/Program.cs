@@ -1,10 +1,13 @@
+// Exceeds the core requirements of the ScriptureMemorizer project by allowing the user to load a list of scriptures from a text file and randomly select one for memorization. The user can then hide words from the scripture and attempt to recall them.
 using System;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Scripture scripture = new Scripture();
+        ScriptureLibrary library = new ScriptureLibrary();
+        library.LoadFromFile("scriptures.txt");
+        Scripture scripture = library.GetRandomScripture(); 
         string input = "";
 
         Console.WriteLine("Hello World! This is the ScriptureMemorizer Project.");
