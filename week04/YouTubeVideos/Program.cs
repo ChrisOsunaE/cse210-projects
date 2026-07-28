@@ -1,11 +1,10 @@
 using System;
-using System.Collections.Generic; // Asegúrate de incluir esto para usar List
+using System.Collections.Generic;
 
 class Program
 {
     static void Main(string[] args)
     {
-        // 1. Crear una lista para almacenar los videos
         List<Video> videos = new List<Video>();
 
         Video video1 = new Video("First Video", "This is the first video", "Author1", 120);
