@@ -24,6 +24,7 @@ class Program
         Video video3 = new Video("Third Video", "This is the third video", "Author3", 180);
         video3.addComment(new Comment("Nice tutorial!", "User5", DateTime.Now));
         video3.addComment(new Comment("Thanks for sharing!", "User6", DateTime.Now));
+        video3.addComment(new Comment("Original video title, let me gess, the next one will be: This is the fourth video", "User7", DateTime.Now));
         videos.Add(video3);
 
         foreach (var video in videos)
